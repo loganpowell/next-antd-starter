@@ -1,7 +1,7 @@
 {
-  "name": "usajobs-widget",
+  "name": "next-antd-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A starter for next.js that adds support for AntD modular component imports and customization of styles. Also, it contains a special wrapper component, which allows query params from URL to be recieved even when deploying on Github Pages/static site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,8 +10,8 @@
     "start": "next start",
     "export": "next export"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["antd", "nextjs", "starter"],
+  "author": "Logan Powell",
   "dependencies": {
     "@zeit/next-less": "^1.0.1",
     "antd": "^3.5.4",
